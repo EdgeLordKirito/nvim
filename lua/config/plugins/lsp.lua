@@ -162,7 +162,8 @@ return {
 			-- etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
 			local servers = {
 				gopls = {},
-				csharp_ls = {},
+				-- csharp_ls = {},
+				pylsp = {},
 				-- pyright = {},
 				-- rust_analyzer = {},
 
